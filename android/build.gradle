@@ -22,10 +22,10 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 28
+    compileSdkVersion 31
 
     defaultConfig {
-        minSdkVersion 16
+        minSdkVersion 21
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     lintOptions {
@@ -35,5 +35,5 @@ android {
 
 dependencies {
     implementation 'androidx.core:core:1.1.0'
-    implementation 'androidx.media:media:1.1.0'
+    implementation 'androidx.media:media:1.4.1'
 }
